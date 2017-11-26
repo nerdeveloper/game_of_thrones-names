@@ -1,11 +1,14 @@
 {
-  "name": "starwars-names",
+  "name": "game_of_thrones-names",
   "version": "1.0.0",
   "description": "Get random Star Wars names",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
+    "build":"npm-run-all --parallel build:*",
+    "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
+    "build:umd": "webpack --output-file index.umd.js",
+    "build:umd.min": "webpack --output-file index.umd.min.js -p",
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --watch",
     "lint": "eslint src",
@@ -13,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/starwars-names.git"
+    "url": "git+https://github.com/nerdeveloper/game_of_thrones-names.git"
   },
   "keywords": [
     "random",
@@ -22,12 +25,12 @@
   "files": [
     "dist"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Obinna Odirionye <odirionye@gmail.com> (http://iamobinna.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/starwars-names/issues"
+    "url": "https://github.com/nerdeveloper/game_of_thrones-names/issues"
   },
-  "homepage": "https://github.com/kentcdodds/starwars-names#readme",
+  "homepage": "https://github.com/nerdeveloper/game_of_thrones-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
@@ -44,7 +47,10 @@
     "mocha": "3.0.0",
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
-    "rimraf": "2.5.4"
+    "rimraf": "2.5.4",
+    "webpack": "1.13.1",
+    "json-loader": "0.5.4",
+    "babel-loader": "6.2.4"
   },
   "nyc": {
     "all": true,
