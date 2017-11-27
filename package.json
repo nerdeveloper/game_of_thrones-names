@@ -1,7 +1,7 @@
 {
   "name": "game_of_thrones-names",
   "version": "1.0.0",
-  "description": "Get random Star Wars names",
+  "description": "Get random Game of Throne names of all the actors and actress",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
