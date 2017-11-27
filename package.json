@@ -1,6 +1,6 @@
 {
   "name": "game_of_thrones-names",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Get random Game of Throne names of all the actors and actress",
   "main": "dist/index.js",
   "scripts": {
