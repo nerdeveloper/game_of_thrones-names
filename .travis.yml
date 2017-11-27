@@ -9,7 +9,9 @@ branches:
   only:
     - master
 notifications:
-  email: false
+  email: false 
 
 script:
   - npm run validate
+  after_success:
+  -npm run report-coverage
