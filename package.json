@@ -8,8 +8,8 @@
     "build": "npm-run-all --parallel build:*",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
-    "build:umd": "webpack --output-file index.umd.js",
-    "build:umd.min": "webpack --output-file index.umd.min.js -p",
+    "build:umd": "webpack --output-filename index.umd.js",
+    "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --watch",
     "lint": "eslint src",
@@ -59,7 +59,7 @@
     "rimraf": "2.5.4",
     "semantic-release": "^8.2.0",
     "validate-commit-msg": "2.14.0",
-    "webpack": "1.13.1"
+    "webpack": "3.8.1"
   },
   "nyc": {
     "all": true,
@@ -94,8 +94,8 @@
     }
   },
   "config": {
-    "commitizen":{
-      "path":"cz-conventional-changelog"
+    "commitizen": {
+      "path": "cz-conventional-changelog"
     },
     "ghooks": {
       "pre-commit": "npm run validate",

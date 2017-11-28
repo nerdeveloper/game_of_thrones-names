@@ -12,8 +12,8 @@ export default {
   devtool: 'source-map',
   module: {
     loaders: [
-      {test: /\.js$/, loader: 'babel', include},
-      {test: /\.json$/, 'loader': 'json', include},
+      {test: /\.js$/, loader: 'babel-loader', include},
+      {test: /\.json$/, 'loader': 'json-loader', include},
     ]
   }
 }

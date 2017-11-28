@@ -1,7 +1,7 @@
 {
   "env": {
     "browser": true,
-    "node": true,
+    "node": true
   },
   "extends": [
     "kentcdodds/best-practices",
@@ -12,5 +12,5 @@
     "kentcdodds/import/possible-errors",
     "kentcdodds/mocha"
   ],
-  "rules": {},
+  "rules": {}
 }
