@@ -11,9 +11,12 @@ branches:
 notifications:
   email: false 
 
+before_script:
+  - npm prune
 script:
-  - npm run validate
-
+  - npm run cover
+  - npm run check-coverage
+  - npm run build
 after_success:
-- npm run report-coverage
-
+  - npm run report-coverage
+  - npm run release
