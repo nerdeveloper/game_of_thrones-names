@@ -1,7 +1,7 @@
 # Game_of_thrones-names
 
-[![travis build](https://img.shields.io/travis/nerdeveloper/game_of_thrones-names.svg?style=flat-square)](https://travis-ci.org/kentcdodds/starwars-names)
-[![codecov coverage](https://img.shields.io/codecov/c/github/nerdeveloper/game_of_thrones-names.svg)](https://codecov.io/github/kentcdodds/starwars-names)
+[![travis build](https://img.shields.io/travis/nerdeveloper/game_of_thrones-names.svg?style=flat-square)](https://travis-ci.org/nerdeveloper/game_of_thrones-names)
+[![codecov coverage](https://img.shields.io/codecov/c/github/nerdeveloper/game_of_thrones-names.svg)](https://codecov.io/github/nerdeveloper/game_of_thrones-names)
 [![version](https://img.shields.io/npm/v/game_of_thrones-names.svg)](https://www.npmjs.com/package/game_of_thrones-names)
 [![downloads](https://img.shields.io/npm/dm/game_of_thrones-names.svg)](https://npm-stat.com/charts.html?package=game_of_thrones-names&from=2017-11-27&to=2017-11-28)
 [![MIT License](https://img.shields.io/npm/l/game_of_thrones-names.svg)](http://opensource.org/licenses/MIT)
