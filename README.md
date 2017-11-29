@@ -39,7 +39,7 @@ course series on [Frontend Masters](http://frontendmasters.com/courses/open-sour
 
 This project assumes you have [NodeJS v6](http://nodejs.org/) or greater installed. You should
 also have [npm v3](https://www.npmjs.com/) or greater installed as well (this comes packaged
-with Node 6). You'll also need a recent version of [git](https://git-scm.com/) installed
+with Node 8). You'll also need a recent version of [git](https://git-scm.com/) installed
 as well.
 
 ### Run
