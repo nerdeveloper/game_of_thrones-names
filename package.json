@@ -16,7 +16,9 @@
     "validate": "npm-run-all --parallel test lint build",
     "release": "semantic-release pre && npm publish && semantic-release post",
     "cover": "nyc --reporter=lcov npm t",
-    "commit": "git cz"
+    "commit": "git cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "once":"git add . && npm run commit"
   },
   "repository": {
     "type": "git",
@@ -57,9 +59,9 @@
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
-    "semantic-release": "8.2.0",
     "validate-commit-msg": "2.14.0",
-    "webpack": "3.8.1"
+    "webpack": "3.8.1",
+    "semantic-release": "^8.2.0"
   },
   "nyc": {
     "all": true,

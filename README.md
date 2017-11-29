@@ -33,7 +33,7 @@ var sevenRandomNames = names.random(7);
 ## Other
 
 This library was developed by [nerdeveloper](https://twitter.com/_nerdeveloper) as part of a
-courses series using on [Frontend Masters](http://frontendmasters.com/courses/open-source/) series called "Creating an Open Source JavaScript Library on Github"
+course series on [Frontend Masters](http://frontendmasters.com/courses/open-source/) called "Creating an Open Source JavaScript Library on Github"
 
 ### Project Setup
 
@@ -48,7 +48,7 @@ If you don't want to to install this repo but would love to what it can do [Run 
 
 ## How can you make me loved and appreciated ?
 
-You can start the repo >> Tell your friends about >> Fork it and make Pull Request.
+You can :star: the repo >> Tell your friends about >> Fork it and make Pull Request.
 
 You can also follow me on [Twitter](https://twitter.com/_nerdeveloper)
 
