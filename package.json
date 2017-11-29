@@ -17,8 +17,7 @@
     "release": "semantic-release pre && npm publish && semantic-release post",
     "cover": "nyc --reporter=lcov npm t",
     "commit": "git cz",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "once":"git add . && npm run commit"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
