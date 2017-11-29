@@ -46,9 +46,9 @@ as well.
 
 If you don't want to to install this repo but would love to what it can do [Run on RunKit](https://npm.runkit.com/game_of_thrones-names)
 
-## How can you make me loved and appreciated ?
+## Make me feel :heart: loved and appreciated
 
-You can :star: the repo >> Tell your friends about >> Fork it and make Pull Request.
+You can :star: the repo | Tell your friends about it | Fork it and make Pull Request.
 
 You can also follow me on [Twitter](https://twitter.com/_nerdeveloper)
 
