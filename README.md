@@ -3,7 +3,7 @@
 [![travis build](https://img.shields.io/travis/nerdeveloper/game_of_thrones-names.svg?style=flat-square)](https://travis-ci.org/nerdeveloper/game_of_thrones-names)
 [![codecov coverage](https://img.shields.io/codecov/c/github/nerdeveloper/game_of_thrones-names.svg)](https://codecov.io/github/nerdeveloper/game_of_thrones-names)
 [![version](https://img.shields.io/npm/v/game_of_thrones-names.svg)](https://www.npmjs.com/package/game_of_thrones-names)
-[![downloads](https://img.shields.io/npm/dm/game_of_thrones-names.svg)](https://npm-stat.com/charts.html?package=game_of_thrones-names&from=2017-11-27&to=2017-11-28)
+[![downloads](https://img.shields.io/npm/dm/game_of_thrones-names.svg)](https://npm-stat.com/charts.html?package=game_of_thrones-names&from=2017-11-27&to=2017-12-31)
 [![MIT License](https://img.shields.io/npm/l/game_of_thrones-names.svg)](http://opensource.org/licenses/MIT)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
